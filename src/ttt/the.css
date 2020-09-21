@@ -1,0 +1,49 @@
+#tttgrid {
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-template-columns: repeat(3, auto);
+	position: relative;
+	box-shadow: 10px 10px 5px grey;
+	border: 1px solid black;
+	width: 35%;
+	height: 60vh;
+	min-width: 400px;
+	margin-top: 20px;
+}
+
+#grid div {
+	background-color: lightgray;
+    justify-content: center;
+    height: 9em;
+	width: auto;
+}
+
+.free:hover {
+	box-shadow: inset 3px 3px 15px grey;
+}
+
+#five {
+	border: 3px solid black;
+}
+
+#four, #six {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+#two, #eight {
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+.O {
+	background-image: url('o.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.X {
+   background-image: url('x70.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}

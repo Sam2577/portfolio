@@ -1,0 +1,174 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+
+
+@keyframes slideRight {
+    from {
+    	transform: translateX(100%);
+
+    }
+    to {
+    	transform: translateX(-300%);
+    }
+}
+
+@keyframes growCircle {
+    from {
+    	transform: scale(0);
+    	opacity: .1;
+    	background-color: red;
+    }
+    to {
+    	transform: scale(100);
+    	opacity: 0;
+    	background-color: #DBD2E0;
+    }
+}
+
+@keyframes growGoldCircle {
+    from {
+    	transform: scale(0);
+    	opacity: .5;
+    	background-color: gold;
+    }
+    to {
+    	transform: scale(100);
+    	opacity: 0;
+    	background-color: #DBD2E0;
+    }
+}
+
+@keyframes countdownText {
+    0% {
+    	opacity: 0;
+    }
+    50%{
+    	opacity: .8;
+    }
+    100% {
+    	opacity: 0;
+    }
+}
+
+
+h1 {
+	font-family:'Oswald', arial narrow, sans-serif;
+}
+
+#fixedPanel div {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#fixedPanel{
+	position: fixed;
+	background-color:#efefef; /*needed for z-index to successfully hide border behind it*/
+	right: 150px;
+	top: 50px;
+	width: 300px;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#messageBox{
+	/*animation: 1s ease-out 0s 1 slideInFromRight;*/
+	position: fixed;
+	background-color:#efefef; /*needed for z-index to successfully hide border behind it*/
+	right: 300px;
+	bottom: 250px;
+	width: 200px;
+	padding: 5px;
+	border: 1px solid black;
+	opacity: 0;
+}
+
+/* snake colors
+#006e90
+#f18f01
+#adcad6
+#99c24d
+#41bbd9
+*/
+
+#game {
+	position: relative;
+	margin: 20px;
+}
+
+.foodgone {
+	position: absolute;
+	top: 200px;
+	left: -400px;
+	height: 50px;
+	width: 1500px;
+	text-align: center;
+	color: yellow;
+	animation: slideRight 20s ease 0s 1 ;
+	text-shadow: 1px 1px grey;
+	font-size: 650%;
+	animation-timing-function: ease-out;
+}
+
+.countdown {
+	position: fixed;
+	top: 600px;
+	left: 30%;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	color: red;
+	transform: scale(15);
+	text-shadow: 1px 1px grey;
+	animation: countdownText 1s ease 0s 1 ;
+	/*transition: opacity 1s ease-in-out;*/
+}
+
+.box {
+	position: absolute;
+}
+
+.wall {
+	background-color: #58641D;
+}
+
+.outerwall {
+	background-color: #58641D;
+}
+
+.food {
+	background-color:#D84141;
+	border-radius: 30%;
+}
+
+.goldfood {
+	background-color: gold;
+	border-radius: 30%;
+}
+
+.head {
+	background-color: #273B09;
+}
+
+.snakebody {
+	background-color: #7B904B;
+}
+
+.ateFoodAnimation{
+	display: block;
+	position: absolute;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	/*transform: rotate(1turn);*/
+	animation: 1s ease 0s 1 growCircle;
+	/*transition: all 1s;*/
+}
+.ateGoldAnimation{
+	display: block;
+	position: absolute;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	/*transform: rotate(1turn);*/
+	animation: 2s ease 0s 1 growGoldCircle;
+	/*transition: all 1s;*/
+}

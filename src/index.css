@@ -1,0 +1,212 @@
+
+body{
+    margin: 0 0;
+    background-color: #C1E0F7;
+}
+main {
+    width: 100%;
+}
+
+{ /* for to do app */ }
+.lines {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 101%;
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  margin-left: 25px;
+}
+
+
+/* logo "J" */
+#logo1_1 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo1_2 {
+    border-top: 1px solid red;
+}
+#logo1_3 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo2_2 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo3_2 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo4_2 {
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo4_1 {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo3_1 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+
+/* logo "O" */
+#logo2_3 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo2_4 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo3_3, #logo3_4 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo4_3 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo4_4 {
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+/* logo "E" */
+#logo2_5 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo2_6 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo3_5 {
+    border-left: 1px solid red;
+}
+#logo4_5 {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo3_6 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#logo4_6 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+/* logo "S" */
+#logo1_7 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo1_8 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo2_7 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo2_8 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo3_7 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo3_8 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo4_7 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo4_8 {
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo5_7 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo5_8 {
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+}
+
+/* logo "A" */
+#logo3_9 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo3_10 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo4_9 {
+    border-left: 1px solid red;
+}
+#logo4_10 {
+    border-right: 1px solid red;
+}
+#logo5_9 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo5_10 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+/* logo "M" */
+#logo3_11 {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+}
+#logo3_12 {
+    border-top: 1px solid red;
+}
+#logo3_13 {
+    border-top: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo4_11 {
+    border-left: 1px solid red;
+}
+#logo4_12 {
+}
+#logo4_13 {
+    border-right: 1px solid red;
+}
+#logo5_11 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo5_12 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+#logo5_13 {
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
