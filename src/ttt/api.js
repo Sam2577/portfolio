@@ -127,15 +127,6 @@ function minimax(board, depth, isMax){
                 savedBest = best;
             }
         }
-        // If given the choice between blocking the other player from winning and placing piece in
-        // the winning position, choose to place the winning piece. (both options represent a
-        // win, but we want the computer to choose the one that happens in less moves (higher depth))
-        // if (best.score === savedBest.score) {
-        //     if (best.depth > savedBest.depth) {
-        //         best.location = [x, y];
-        //         savedBest = best;
-        //     }
-        // }
     }
     // return the "best" as determined by current player
     return savedBest;
